@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tahrir Project - Ottoman Manuscript Keyword Search</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <div class="header-container">
+      <h1><a href="#">Tahrir Project - Ottoman Manuscript Keyword Search</a></h1>
+      <p>Powered by Deep Learning & Computer Vision</p>
+    </div>
+  </header>
+
+  <main>
+    <section class="search-section">
+      <form id="search-form">
+        <input type="text" id="search-box" placeholder="Enter keyword..." required />
+        <button type="submit">Search</button>
+        <div class="search-options">
+          <label for="confidence">Confidence:</label>
+          <input type="number" id="confidence" name="confidence" min="0" max="100" value="50" />
+          <label for="max-results">Max Results:</label>
+          <input type="number" id="max-results" name="max-results" min="1" value="100" />
+        </div>
+      </form>
+    </section>
+
+    <section class="results-section" id="results">
+      <!-- Search results will be displayed here -->
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Ottoman Manuscript Project</p>
+
+    <p>Developed by <a href="https://www.linkedin.com/in/sadiq-qara/" target="_blank">Sadiq Qara</a> and <a href="https://www.linkedin.com/in/kouroshsharifi/" target="_blank">Kourosh Sharifi</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
