@@ -5,7 +5,7 @@ A complete end-to-end system for keyword spotting in historical Ottoman document
 ## Architecture Overview
 
 ```
-┌─────────────────┐  1. Image Upload   ┌──────────────────┐
+┌─────────────────┐  1. Image Upload    ┌──────────────────┐
 │   Frontend      │ ───────────────────>│     Backend      │
 │ (Firebase Host) │                     │  (Cloud Run)     │
 │                 │ <───────────────────│                  │
