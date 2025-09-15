@@ -290,7 +290,3 @@ python inspect_embeddings.py
 # Test backend endpoints
 curl -X POST localhost:8080/match?debug=1 -F "image=@test.jpg"
 ```
-
-## License
-
-This project is part of the Ottoman historical document digitization initiative.
